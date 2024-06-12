@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    height: 11vw;
-    width: 100vw;
+    height: 15vh;
+    width: 100%;
     background-color: #D1D8C5;
 
     .Footer{

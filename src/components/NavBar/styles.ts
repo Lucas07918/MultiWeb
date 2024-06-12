@@ -130,8 +130,8 @@ export const Container = styled.div`
     }
 `
 export const Content = styled.div`
-    height: 20vh;
-    width: 100vw;
+    height: 15vh;
+    width: 100%;
     background-color: #D1D8C5;
 
     .Navbar{

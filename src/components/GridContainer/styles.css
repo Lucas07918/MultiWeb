@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.Container{
+    height: 100vh;
+    background-color: red;
+    font-family:'Poppins', sans-serif;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    grid-template-rows: auto 1fr auto;
+    }
+
+    .navbar{
+        background-color: aqua;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .main{
+        /* background-color: blueviolet; */
+    }
+
+    .lat{
+        background-color: blue;
+    } 
+
+    .footer{
+        background-color: green;
+        grid-column: 1/3;
+    }
+

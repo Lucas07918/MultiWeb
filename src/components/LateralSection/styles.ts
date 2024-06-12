@@ -5,7 +5,7 @@ export const Container = styled.div`
     width: 100%;
     background-color: #D1D8C5;
 
-    .Main{
+    .LateralSection{
         height: 100%;
         width: 100%;
         display: flex;
@@ -13,7 +13,7 @@ export const Container = styled.div`
         align-items: center;
     }
     
-    .Main:hover{
+    .LateralSection:hover{
         transition: 0.5s;
         background-color: #7E8EF1;
         cursor: pointer;
